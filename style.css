@@ -1,0 +1,77 @@
+@font-face {
+    font-family: SFProNegrito;
+    src: url(font/sfprodisplay.OTF);
+}
+@font-face {
+    font-family: SFProDisplay;
+    src: url(font/SFProDisplay-Thin.ttf);
+}
+
+#africano {
+    position: absolute;
+    width: 1165px;
+    height: 423px;
+    top: 51px; 
+}
+#p1 {
+    position: absolute;
+    width: 479px;
+    height: 124px;
+    left: 61px;
+    top: 178px;
+
+    font-family: SFProDisplay;
+    font-weight: 10;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+}
+span {
+    font-family: SFProNegrito;
+    font-weight: 700;
+}
+#p2 {
+    position: absolute;
+    width: 438.91px;
+    height: 19.63px;
+    left: 61px;
+    top: 313.37px;
+
+    font-family: SFProDisplay;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF; 
+    line-height: 21px;
+}
+
+#learnmore {
+    position: absolute;
+    width: 74px;
+    height: 14px;
+    left: 112px;
+    top: 376px;
+    
+    font-family: SFProDisplay;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+button {
+    position: absolute;
+    width: 157px;
+    height: 36px;
+    left: 220px;
+    top: 376px;
+
+    font-family: SFProDisplay;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(159, 193, 203, 0.85);
+    border-radius: 20px;
+    border: none;
+}
