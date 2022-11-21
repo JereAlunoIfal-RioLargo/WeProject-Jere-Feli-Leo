@@ -1,5 +1,49 @@
-.container
+body
+{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(249.33deg, rgba(139, 184, 199, 0.97) -0.93%, rgba(130, 170, 183, 0) 105.52%);
+}
+.container 
 {
     border-style: none;
+    top: 14px;
+    height: 18px;
+    
+}
+.container #home
+{
+    position: absolute;
+    width: 47px;
+    left: 453px;
+}
+.container #blog
+{
+    position: absolute;
+    left: 540px;
+}
+.container #events
+{
+    position: absolute;
+    left: 626px;
 
+}
+.container #abouts
+{
+    position: absolute;
+    left: 729px;
+}
+.container #login
+{
+    position: absolute;
+    left: 945px;
+    width: 70px;
+    color: white;
+}
+.container #register
+{
+    position: absolute;
+    left: 1007px;
+    color: white;
 }
