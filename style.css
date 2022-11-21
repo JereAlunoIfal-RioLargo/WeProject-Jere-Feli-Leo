@@ -90,44 +90,109 @@ body {
 
 .container {
     border-style: none;
-    top: 14px;
     height: 18px;
-
+    font-size: 15px;
+    font-weight: 700;
+}
+.container #logo
+{
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    left: 23px;
+    
+}
+.container #hng
+{
+    font-family: SFProNegrito;
+    color: rgba(0, 0, 0, 0.7);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    width: 290.86px;
+    height: 40.42px;
+    left: 64px;
 }
 
 .container #home {
+    font-family: SFProNegrito;
     position: absolute;
     width: 47px;
     left: 453px;
+    top: 12px;
+
 }
 
 .container #blog {
+    font-family: SFProNegrito;
     position: absolute;
     left: 540px;
+    top: 12px;
 }
 
 .container #events {
+    font-family: SFProNegrito;
     position: absolute;
     left: 626px;
+    top: 12px;
 
 }
 
 .container #abouts {
+    font-family: SFProNegrito;
     position: absolute;
     left: 729px;
+    top: 12px;
+
 }
 
 .container #login {
+    font-family: SFProNegrito;
     position: absolute;
-    left: 945px;
-    width: 70px;
-    color: white;
+    left: 900px;
+    width: 40px;
+    color: black;
+    top: 12px;
+    border-style: none;
+    background-color: none;
+    border-radius: 15px;
+    top: 8px;
+    width: 80px;
+    height: 24px;
+    font-size: 10px;
+}
+.container #to
+{
+    position: absolute;
+    width: 5px;
+    height: 14px;
+    left: 995px;
+    top: 12px;
+    line-height: 14px;
 }
 
 .container #register {
+    font-family: SFProNegrito;
     position: absolute;
     left: 1007px;
-    color: white;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    top: 8px;
+    width: 80px;
+    height: 24px;
+    border-style: none;
+    font-size: 10px;
+}
+#register:hover
+{
+    cursor: pointer;
+}
+#login:hover
+{
+    cursor: pointer;
 }
 /*Fim -- Jeremias*/
 
@@ -162,15 +227,12 @@ body {
     height: 28px;
     left: 957.91px;
     top: 507px;
-
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
-
     color: #000000;
-
 }
 
 #footer2 {
