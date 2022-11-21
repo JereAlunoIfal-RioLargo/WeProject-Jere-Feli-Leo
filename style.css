@@ -2,6 +2,7 @@
     font-family: SFProNegrito;
     src: url(font/sfprodisplay.OTF);
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url(font/SFProDisplay-Thin.ttf);
@@ -11,8 +12,9 @@
     position: absolute;
     width: 1165px;
     height: 423px;
-    top: 51px; 
+    top: 51px;
 }
+
 #p1 {
     position: absolute;
     width: 479px;
@@ -25,12 +27,14 @@
     font-size: 48px;
     line-height: 57px;
     letter-spacing: 0.02em;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
+
 span {
     font-family: SFProNegrito;
     font-weight: 700;
 }
+
 #p2 {
     position: absolute;
     width: 438.91px;
@@ -41,7 +45,7 @@ span {
     font-family: SFProDisplay;
     font-weight: 400;
     font-size: 18px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     line-height: 21px;
 }
 
@@ -51,7 +55,7 @@ span {
     height: 14px;
     left: 112px;
     top: 376px;
-    
+
     font-family: SFProDisplay;
     font-weight: 600;
     font-size: 12px;
@@ -74,4 +78,88 @@ button {
     background: rgba(159, 193, 203, 0.85);
     border-radius: 20px;
     border: none;
+}
+
+#footer1 {
+    position: absolute;
+    height: 42px;
+    width: 1017px;
+    left: 76px;
+    top: 497px;
+}
+
+#primeirop {
+    position: absolute;
+    width: 132.89px;
+    height: 42px;
+    left: 76px;
+    top: 497px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+#segundop {
+    position: absolute;
+    width: 135.09px;
+    height: 28px;
+    left: 957.91px;
+    top: 507px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+#footer2 {
+    position: absolute;
+    width: 1062px;
+    height: 15px;
+    left: 61px;
+    top: 629px;
+}
+
+#terceirop {
+    position: absolute;
+    width: 132.89px;
+    height: 42px;
+    left: 76px;
+    top: 497px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+#quartop {
+    position: absolute;
+    width: 135.09px;
+    height: 28px;
+    left: 957.91px;
+    top: 507px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+
 }
