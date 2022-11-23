@@ -212,7 +212,7 @@ body {
     left: 76px;
     top: 497px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -228,7 +228,7 @@ body {
     height: 28px;
     left: 957.91px;
     top: 507px;
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -243,6 +243,9 @@ body {
     left: 61px;
     top: 629px;
 }
+#div2{
+    background: rgba( 255,255,255, 0.75 );
+}
 
 #terceirop {
     position: absolute;
@@ -251,7 +254,7 @@ body {
     left: 76px;
     top: 497px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -268,7 +271,7 @@ body {
     left: 957.91px;
     top: 507px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
