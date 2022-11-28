@@ -22,6 +22,8 @@
     left: 61px;
     top: 178px;
 
+    margin: 0px;
+
     font-family: SFProDisplay;
     font-weight: 10;
     font-size: 48px;
@@ -41,7 +43,8 @@ span {
     height: 19.63px;
     left: 61px;
     top: 313.37px;
-    padding-top: 15px;
+
+    margin: 0px;
 
     font-family: SFProDisplay;
     font-weight: 400;
@@ -57,6 +60,8 @@ span {
     left: 112px;
     top: 376px;
 
+    margin: 0px;
+
     font-family: SFProDisplay;
     font-weight: 600;
     font-size: 12px;
@@ -70,6 +75,8 @@ button {
     height: 36px;
     left: 220px;
     top: 376px;
+
+    padding: 0px;
 
     font-family: SFProDisplay;
     font-weight: 600;
