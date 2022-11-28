@@ -22,6 +22,8 @@
     left: 61px;
     top: 178px;
 
+    margin: 0px;
+
     font-family: SFProDisplay;
     font-weight: 10;
     font-size: 48px;
@@ -41,7 +43,8 @@ span {
     height: 19.63px;
     left: 61px;
     top: 313.37px;
-    padding-top: 15px;
+
+    margin: 0px;
 
     font-family: SFProDisplay;
     font-weight: 400;
@@ -57,6 +60,8 @@ span {
     left: 112px;
     top: 376px;
 
+    margin: 0px;
+
     font-family: SFProDisplay;
     font-weight: 600;
     font-size: 12px;
@@ -69,7 +74,9 @@ button {
     width: 157px;
     height: 36px;
     left: 220px;
-    top: 376px;
+    top: 364px;
+
+    padding: 0px;
 
     font-family: SFProDisplay;
     font-weight: 600;
@@ -95,16 +102,16 @@ body {
     font-size: 15px;
     font-weight: 700;
 }
-.container #logo
-{
+
+.container #logo {
     position: absolute;
     width: 30px;
     height: 32px;
     left: 23px;
-    
+
 }
-.container #hng
-{
+
+.container #hng {
     font-family: SFProNegrito;
     color: rgba(0, 0, 0, 0.7);
     font-style: normal;
@@ -163,8 +170,8 @@ body {
     height: 24px;
     font-size: 10px;
 }
-.container #to
-{
+
+.container #to {
     position: absolute;
     width: 5px;
     height: 14px;
@@ -187,20 +194,27 @@ body {
     border-style: none;
     font-size: 10px;
 }
-#register:hover
-{
+
+#register:hover {
     cursor: pointer;
 }
-#login:hover
-{
+
+#login:hover {
     cursor: pointer;
 }
+
 /*Fim -- Jeremias*/
 
 #footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 749px;
+    
     position: absolute;
+    width: 1016.98px;
     height: 42px;
-    width: 1017px;
     left: 76px;
     top: 497px;
 }
@@ -212,7 +226,7 @@ body {
     left: 76px;
     top: 497px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -228,7 +242,7 @@ body {
     height: 28px;
     left: 957.91px;
     top: 507px;
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -238,10 +252,12 @@ body {
 
 #footer2 {
     position: absolute;
-    width: 1062px;
-    height: 15px;
-    left: 61px;
-    top: 629px;
+    width: 1165px;
+    height: 95px;
+    left: 0px;
+    top: 572px;
+
+    background: rgba(255, 255, 255, 0.75);
 }
 
 #terceirop {
@@ -251,7 +267,7 @@ body {
     left: 76px;
     top: 497px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -268,7 +284,7 @@ body {
     left: 957.91px;
     top: 507px;
 
-    font-family: 'SF Pro Display';
+    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
