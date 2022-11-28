@@ -1,3 +1,9 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: SFProNegrito;
     src: url(font/sfprodisplay.OTF);
@@ -205,28 +211,76 @@ body {
 
 /*Fim -- Jeremias*/
 
+.rodape1
+{
+
+    position: absolute;
+    top: 497px;
+    left: 76px;
+    width: 1200px;
+    height: 45px;
+
+}
+#pa1
+{
+    position: absolute;
+    color: #000000;
+    width: 132.89px;
+    font-size: 12px;
+}
+#pa2
+{
+    position: absolute;
+    width: 135.09px;
+    font-size: 12px;
+    left: 950px;
+}
+.rodape2
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1200px;
+    height: 95px;
+    left: 0px;
+    top: 572px;
+}
+#pa3
+{
+    position: absolute;
+    top: 62px;
+    width: 450px;
+    height:14px;
+    left: 61px;
+}
+#pa4
+{
+    position: absolute;
+    width: 75.86px;
+    height: 14px;
+    left: 1047.14px;
+    top: 63px;
+}
+/* Uma merda
+
 #footer1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 749px;
-    
     position: absolute;
     width: 1016.98px;
     height: 42px;
-    left: 76px;
-    top: 497px;
+    left: 0px;
+    top: 0px;
 }
 
 #primeirop {
     position: absolute;
     width: 132.89px;
     height: 42px;
-    left: 76px;
+    left: 50px;
     top: 497px;
-
-    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -242,7 +296,6 @@ body {
     height: 28px;
     left: 957.91px;
     top: 507px;
-    font-family: SFProDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -293,3 +346,4 @@ body {
     color: #000000;
 
 }
+*/
