@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./events.css">
+</head>
+    <body onload="carregarEventos()">
+            <header>
+                <div class = "container">
+                    <img id = "logo"src="../img/Vector.svg" alt="logo">
+                    <a id = "hng">HNG Grammer School</a>
+                    <a id = "home">HOME</a>
+                    <a id = "blog">BLOG</a>
+                    <a id = "events" href="../events/events.html" target="_blank">EVENTS</a>
+                    <a id = "abouts">ABOUT</a>
+                    <a><input type="submit" value = "LOG IN"id = "login"></a>
+                    <img id = "to" src="../img/_.svg" alt="|">
+                    <a><input type="submit" value="REGISTER" id = "register"></a>
+                </div>
+            </header>
+        <div id = "resultadoEventos"></div>
+
+        <script src = "./classes/CalendarioEscolar.js"></script>
+        <script src = "./classes/eventoEscolar.js"></script>
+        <script src = "./objetos/eventosCadastrados.js"></script>
+        <script src = "./objetos/calendarioEventos.js"></script>
+        <script src = "./scripts/controlador.js"></script>
+    </body>
+</html>

@@ -10,7 +10,8 @@
 }
 
 @font-face {
-    font-family: SFProDisplay;
+    font-family: SFProDisplay;    font-family: SFProDisplay;
+
     src: url(font/SFProDisplay-Thin.ttf);
 }
 
@@ -99,7 +100,7 @@ body {
 }
 
 .container {
-    position: absolute;
+    /*position: absolute;*/
     border-style: none;
     height: 40px;
     font-size: 15px;
@@ -107,6 +108,8 @@ body {
     text-align: center;
     left: 250px;
     width: 1165px;
+    width: 100%;
+    border: solid 1px #FFFFFF;
 }
 
 .container #logo {
@@ -263,4 +266,9 @@ body {
     left: 1047.14px;
     top: 63px;
     text-transform: uppercase;
+}
+#events
+{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.7)
 }
